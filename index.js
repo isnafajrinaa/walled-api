@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 
 const userRouter = require("./routers/users.router");
 const transactionRouter = require("./routers/transactions.router");
-const globalErrorHandler = require("./middlewares/error.middleware");
+const globalErrorHandler = require("./middleware/error.middleware");
 
 const app = express();
 const port = process.env.APP_PORT;
